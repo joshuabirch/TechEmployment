@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Quantify";
+    src: url("fonts/Quantify.ttf") format("woff");
+}
+
+html, body {
+    height: 100%;
+}
+
+.active {
+    background-color: #9b00c8;
+    border-radius: 5px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#splash {
+    background-image: url("assets/index-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.center-content {
+    margin-top: 120px;
+}
+
+
+#splash-heading {
+    font-family: 'Quantify';
+    color: #fff;
+    font-size: 10vw;
+    line-height: 120px;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-learn-more {
+    background-color: #9b00c8;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn-learn-more:hover {
+    background-color: #8105a3;
+    color: #fff;
+}
+
+.btn-guests {
+    background-color: transparent;
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 10px;
+}
+
+.btn-guests:hover {
+    background-color: #fff;
+    color: #9b00c8;
+}
+
+#about {
+    background-color: #9b00c8;
+    padding: 30px;
+}
+
+#about h1 {
+    font-family: 'Quantify';
+    font-size: 6vw;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: #00c821;
+    color: #fff;
+    border: 0;
+}
+
+.card-title {
+    font-family: 'Quantify';
+    font-size: 2vw;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-learn-more-card {
+    background-color: #9b00c8;
+    color: #fff;
+    padding: 10px;
+}
+
