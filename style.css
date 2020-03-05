@@ -2,7 +2,7 @@ html, body {
     height: 100%;
 }
 
-p, a, button {
+p, a, button, li {
     font-family: input-serif, serif;
     font-weight: 700;
     font-style: normal;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, ::placeholder {
 
 @media (min-width: 992px) {
     #masthead {
-        height: 100vh;
+        min-height: 100vh;
     }
 }
 
@@ -72,26 +72,30 @@ h1, h2, h3, h4, h5, ::placeholder {
     background-color: #ff0000;
     border-radius: 0!important;
     color: #fff;
-    border: solid 2px #ff0000;
+    border: solid 3px #000;
     transition: all .3s ease-in-out;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .btn-learn-more:hover {
     background-color: #b90000;
-    border: solid 2px #b90000;
     color: #fff;
 }
 
 .btn-guests {
-    background-color: transparent;
-    color: #fff;
-    border: solid 2px #fff;
+    background-color: #fff;
+    border: solid 3px #000;
     border-radius: 0!important;
     transition: all .2s ease-in-out;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .btn-guests:hover {
-    background-color: #fff;
+    background-color: #bbb;
     color: #000;
 }
 
@@ -100,14 +104,27 @@ h1, h2, h3, h4, h5, ::placeholder {
     min-height: 100%;
 }
 
-#about h1 {
-    font-size: 8rem;
-    color: #ff0000;
+#about-sub {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
 }
 
-#about-sub {
-    font-size: 1rem;
-    line-height: 1.5;
+.btn-tickets {
+    background-color: #ff0000;
+    border-radius: 0;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    font-size: 24px;
+    border-left: solid 2px #fff;
+    border-right: solid 2px #fff;
+    border-bottom: solid 2px #fff;
+}
+
+.btn-tickets:hover {
+    background-color: #b90000;
     color: #fff;
 }
 
@@ -119,7 +136,6 @@ h1, h2, h3, h4, h5, ::placeholder {
 }
 
 .card-title {
-    font-size: 1.2rem;
     white-space: nowrap;
 }
 
@@ -128,9 +144,8 @@ h1, h2, h3, h4, h5, ::placeholder {
 }
 
 #countdown {
-    background-color: #121212;
+    height: 70%;
 }
-
 
 #clockdiv{
     color: #fff;
@@ -144,7 +159,10 @@ h1, h2, h3, h4, h5, ::placeholder {
 }
 
 #clockdiv > div{
-    display: inline-block;
+    display: block;
+    float: left;
+    margin: 0;
+    border: solid 2px #000;
 }
 
 #clockdiv div > span{
@@ -157,8 +175,18 @@ h1, h2, h3, h4, h5, ::placeholder {
 .smalltext{
     padding-top: 5px;
     font-size: 24px;
-
+    background-color: #fff;
+    border-top: solid 2px #000;
 }
+
+#countdown-circle {
+    position: absolute;
+    transform: 
+        translate(270%, 50%)
+        rotate(-11deg)
+        scale(0.80);
+}
+
 #guests {
     min-height: 100%;
     background-color: #ff0000;
@@ -178,6 +206,39 @@ h1, h2, h3, h4, h5, ::placeholder {
     height: 100%;
 }
 
+#tickets {
+    background-color: #fff;
+}
+
+.border-thick {
+    border: solid 2px #000!important;
+}
+
+.list-unstyled li {
+    font-size: 0.75rem;
+}
+
+.card-header {
+    background-color: #ff0000;
+    border-radius: 0!important;
+    text-align: center;  
+    border-bottom: solid 2px #000!important; 
+}
+
+.btn-buy {
+    background-color: #ff0000;
+    border-radius: 0;
+    color: #fff;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn-buy:hover {
+    background-color: #b90000;
+    color: #fff;
+}
+
 #contact {
     background-color: #000;
 }
@@ -188,14 +249,22 @@ h1, h2, h3, h4, h5, ::placeholder {
 }
 
 .form-control {
-    background-color: transparent;
+    background-color: #fff;
     border: solid 2px #ff0000;
     border-radius: 0rem;
     color: #fff;
 }
 
+.form-group {
+    margin-bottom: 0;
+}
+
+.form-control-lg {
+    height: calc(2rem + 3rem + 2px);
+}
+
 .form-control:focus {
-    background-color: transparent;
+    background-color: #fff;
     color: #fff;
     border: solid 2px #ff0000;
     box-shadow: 0 0 0 0.2rem rgba(255, 0, 0,.25);
