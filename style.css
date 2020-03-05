@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, ::placeholder {
     min-height: 30rem;
     position: relative;
     width: 100%;
-    padding-top: 10rem;
+    padding-top: 12rem;
     padding-bottom: 8rem;
 }
 
@@ -97,7 +97,6 @@ h1, h2, h3, h4, h5, ::placeholder {
 
 #about {
     background-color: #000000;
-    height: 100vh;
     min-height: 100%;
 }
 
@@ -114,9 +113,9 @@ h1, h2, h3, h4, h5, ::placeholder {
 
 .card {
     background-color: transparent;
-    border: solid 1px #fff;
     color: #fff;
     border-radius: 0;
+    border: 0;
 }
 
 .card-title {
@@ -128,6 +127,38 @@ h1, h2, h3, h4, h5, ::placeholder {
     padding: 0!important;
 }
 
+#countdown {
+    background-color: #121212;
+}
+
+
+#clockdiv{
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 56px;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#clockdiv > div{
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 5rem;
+    background: #ff0000;
+    width: 100%;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 24px;
+
+}
 #guests {
     min-height: 100%;
     background-color: #ff0000;
@@ -138,6 +169,13 @@ h1, h2, h3, h4, h5, ::placeholder {
 #guests h1 {
     font-size: 8rem;
     color: #fff;
+}
+
+.card-icon {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
 }
 
 #contact {
@@ -171,7 +209,11 @@ h1, h2, h3, h4, h5, ::placeholder {
     font-weight: 700;
     font-style: normal;
     color: #fff;
+}
 
+.btn-submit:hover {
+    background-color: #b90000;
+    color: #fff;
 }
 
 #footer {
