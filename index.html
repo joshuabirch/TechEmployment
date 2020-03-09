@@ -49,8 +49,8 @@
                             <h5 class="text-light">Municipal Hall</h5>
                             <div class="row">
                                 <div class="col-md-12 d-flex flex-row justify-content-center">
-                                    <button type="button" class="btn-lg d-block float-left btn-learn-more mt-3 p-4">Learn More</button>
-                                    <button type="button" class="btn-lg d-block float-left btn-guests text-dark mt-3 p-4">2020 Lineup</button>
+                                    <button type="button" class="btn-lg d-block float-left btn-learn-more mt-3 p-4">learn more</button>
+                                    <button type="button" class="btn-lg d-block float-left btn-guests text-dark mt-3 p-4">2020 lineup</button>
                                 </div>
                             </div>
                         </div>
@@ -61,77 +61,135 @@
     </div>
 
     <div id="about" class="py-5">
-        <div class="container py-3">
+        <div class="container">
             <div class="row">
                 <!-- <h1 class="text-center px-4">about us</h1> -->
-                <img height="219" width="949" src="assets/about-us-header.png" class="d-block mx-auto px-4 py-3 img-fluid">
-                <p id="about-sub" class="text-justify py-4">We are Tech Employment! An employment conference dedicated to connecting graduating students to the industry! We specify in the technology sector with big names like Apple, Microsoft, Dell, Intel and more attending every year! This year we're open from the 25th - 26th July so book now!</p>
+                <div class="col-md-12">
+                    <img height="219" width="949" src="assets/about-us-header.png" class="d-block mx-auto px-4 py-3 img-fluid">
+                    <p id="about-sub" class="text-justify py-4">We are Tech Employment! An employment conference dedicated to connecting graduating students to the industry! We specify in the technology sector with big names like Apple, Microsoft, Dell, Intel and more attending every year! This year we're open from the 25th - 26th July at the Municipal Hall so, for now, take a look at what's on offer;</p>
+                </div>
             </div>
-            <div class="row">
+
+            <!--desktop-->
+            <div class="row about-us-cards-desktop">
                 <div class="col-md-4">
                     <div class="card w-100 shadow text-center">
-                        <div style="border-left:solid 2px #fff;border-top:solid 2px #fff;" class="card-body">
-                            <h5 class="card-title">Employment Stalls</h5>
+                        <div style="border-left:solid 2px #fff;border-top:solid 2px #fff;" class="card-body p-4">
+                            <h5 class="card-title">employment stalls</h5>
+                            <p>meet companies and their recruitment teams</p>
                         </div>
                     </div>
                     <div class="card w-100 shadow text-center">
-                        <div class="card-body bg-light">
-                            <h5 style="color:#000;" class="card-title">Placement Interviews</h5>
+                        <div class="card-body p-4 bg-light">
+                            <h5 style="color:#343a40;" class="card-title">placement interviews</h5>
+                            <p style="color:#343a40;">attend real placement interviews</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card w-100 shadow text-center">
-                        <div class="card-body bg-light">
-                            <h5 style="color:#000;" class="card-title">Speakers</h5>
+                        <div class="card-body p-4 bg-light">
+                            <h5 style="color:#343a40;" class="card-title">speakers</h5>
+                            <p style="color:#343a40;">regular talks from top CEO's on employability</p>
                         </div>
                     </div>
                     <div class="card w-100 shadow text-center">
-                        <div style="border-bottom:solid 2px #fff;" class="card-body">
-                            <h5 class="card-title">CV Writing Workshops</h5>
+                        <div style="border-bottom:solid 2px #fff;" class="card-body p-4">
+                            <h5 class="card-title">cv writing workshops</h5>
+                            <p>create or improve your own cv</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card w-100 shadow text-center">
-                        <div style="border-right:solid 2px #fff;border-top:solid 2px #fff;" class="card-body">
-                            <h5 class="card-title">Full Catering</h5>
+                        <div style="border-right:solid 2px #fff;border-top:solid 2px #fff;" class="card-body p-4">
+                            <h5 class="card-title">full catering</h5>
+                            <p>full indoor catering available</p>
                         </div>
                     </div>
                     <div class="card w-100 text-center">
-                        <div class="card-body bg-light">
-                            <h5 style="color:#000;" class="card-title">Mock Interviews</h5>
+                        <div class="card-body p-4 bg-light">
+                            <h5 style="color:#343a40;" class="card-title">mock interviews</h5>
+                            <p style="color:#343a40;">take part in fake interviews to gain feedback</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <button class="btn btn-tickets py-4 px-2 d-block mx-auto w-100">get tickets now!</button>
-            </div>
-        </div>
-    </div>
-
-    <div id="countdown" class="bg-dark py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 d-flex flex-row justify-content-center">
-                    <div id="clockdiv">
-                        <div>
-                          <span class="days"></span>
-                          <div class="smalltext text-dark">Days</div>
-                        </div>
-                        <div>
-                          <span class="hours"></span>
-                          <div class="smalltext text-dark">Hours</div>
-                        </div>
-                        <div>
-                          <span class="minutes"></span>
-                          <div class="smalltext text-dark">Minutes</div>
-                        </div>
-                      </div>  
+            <div class="row about-us-cards-desktop">
+                <div class="col-md-12 p-0">
+                    <button class="btn btn-tickets py-4 px-2 d-block mx-auto w-100"><i class="fas fa-shopping-cart"></i> tickets available now</button>
                 </div>
-                <div id="countdown-circle">
-                    <img width="311" height="310" src="assets/countdown-circle.png">
+            </div>
+
+            <!--tablet & mobile-->
+            <div class="row d-none about-us-cards-mobile">
+                <div class="col">
+                    <div class="card w-100 shadow text-center">
+                        <div style="border-left:solid 1px #fff;border-top:solid 2px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
+                            <h5 class="card-title">employment stalls</h5>
+                            <p>meet companies and their recruitment teams</p>
+                        </div>
+                    </div>
+                    <div class="card w-100 shadow text-center">
+                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
+                            <h5 class="card-title text-dark">placement interviews</h5>
+                            <p style="color:#343a40;">attend real placement interviews</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card w-100 shadow text-center">
+                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
+                            <h5 class="card-title">speakers</h5>
+                            <p style="color:#343a40;">regular talks from top CEO's on employability</p>
+                        </div>
+                    </div>
+                    <div class="card w-100 shadow text-center">
+                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
+                            <h5 class="card-title text-dark">cv writing workshops</h5>
+                            <p>create or improve your own cv</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card w-100 shadow text-center">
+                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
+                            <h5 class="card-title">full catering</h5>
+                            <p>full indoor catering available</p>
+                        </div>
+                    </div>
+                    <div class="card w-100 shadow text-center">
+                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
+                            <h5 class="card-title text-dark">mock interviews</h5>
+                            <p style="color:#343a40;">take part in fake interviews to gain feedback</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none about-us-cards-mobile">
+                <div class="col-md-12">
+                    <button class="btn btn-tickets py-4 px-2 d-block mx-auto w-100">get tickets now!</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 p-0 d-flex flex-row justify-content-center">
+                    <div class="row" id="clockdiv">
+                        <div class="col-md-4">
+                            <span class="days"></span>
+                            <div class="smalltext text-light">days</div>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="hours"></span>
+                            <div class="smalltext text-light">hours</div>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="minutes"></span>
+                            <div class="smalltext text-light">minutes</div>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
@@ -149,7 +207,7 @@
                 <div class="col-md-6">
                     <div class="card" style="max-width: 540px;">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-4">
                                 <div style="background-color:#000;" class="row h-100">
                                     <div class="col align-self-center">
                                         <div class="text-light card-icon">
@@ -158,7 +216,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-8" style="border-top:solid 2px #000;border-bottom:solid 2px #000;">
+                            <div class="col-8" style="border-top:solid 2px #000;border-bottom:solid 2px #000;">
                                 <div class="card-body bg-white">
                                     <h3 class="card-title text-dark">Microsoft</h3>
                                     <p class="text-dark">Satya Nadella</p>
@@ -169,7 +227,7 @@
                     
                     <div class="card" style="max-width: 540px;">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-4">
                                 <div style="background-color:#000;" class="row h-100">
                                     <div class="col align-self-center">
                                         <div class="text-light card-icon">
@@ -178,7 +236,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-8" style="border-bottom:solid 2px #000;">
+                            <div class="col-8" style="border-bottom:solid 2px #000;">
                                 <div class="card-body bg-white">
                                     <h3 class="card-title text-dark">Apple</h3>
                                     <p class="text-dark">Tim Cook</p>
@@ -189,7 +247,7 @@
 
                     <div class="card" style="max-width: 540px;">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-4">
                                 <div style="background-color:#000;" class="row h-100">
                                     <div class="col align-self-center">
                                         <div class="text-light card-icon">
@@ -198,7 +256,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-8" style="border-bottom:solid 2px #000;">
+                            <div class="col-8" style="border-bottom:solid 2px #000;">
                                 <div class="card-body bg-white">
                                     <h3 class="card-title text-dark">Google</h3>
                                     <p class="text-dark">Sundar Pichai</p>
@@ -213,7 +271,7 @@
 
                     <div class="card" style="max-width: 540px;">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-4">
                                 <div style="background-color:#000;" class="row h-100">
                                     <div class="col align-self-center">
                                         <div class="text-light card-icon">
@@ -222,7 +280,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-8" style="border-top:solid 2px #000;border-bottom:solid 2px #000;border-right:solid 2px #000;">
+                            <div class="col-8" style="border-top:solid 2px #000;border-bottom:solid 2px #000;border-right:solid 2px #000;">
                                 <div class="card-body bg-white">
                                     <h3 class="card-title text-dark">Amazon</h3>
                                     <p class="text-dark">Jeff Bezos</p>
@@ -233,7 +291,7 @@
 
                     <div class="card" style="max-width: 540px;">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-4">
                                 <div style="background-color:#000;" class="row h-100">
                                     <div class="col align-self-center">
                                         <div class="text-light card-icon">
@@ -242,7 +300,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-8" style="border-bottom:solid 2px #000;border-right:solid 2px #000;">
+                            <div class="col-8" style="border-bottom:solid 2px #000;border-right:solid 2px #000;">
                                 <div class="card-body bg-white">
                                     <h3 class="card-title text-dark">Ebay</h3>
                                     <p class="text-dark">Scott Schenkel</p>
@@ -253,7 +311,7 @@
 
                     <div class="card" style="max-width: 540px;">
                         <div class="row no-gutters">
-                            <div class="col-md-4">
+                            <div class="col-4">
                                 <div style="background-color:#000;" class="row h-100">
                                     <div class="col align-self-center">
                                         <div class="text-light card-icon">
@@ -262,7 +320,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-8" style="border-bottom:solid 2px #000;border-right:solid 2px #000;">
+                            <div class="col-8" style="border-bottom:solid 2px #000;border-right:solid 2px #000;">
                                 <div class="card-body bg-white">
                                     <h3 class="card-title text-dark">Sony</h3>
                                     <p class="text-dark">Kenichiro Yoshida</p>
@@ -439,20 +497,28 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <form class="w-50 mx-auto">
+                    <form class="contact-form w-100 mx-auto">
                         <div class="form-group row">
                             <div class="col">
-                                <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Name">
+                                <div class="input-group">
+                                <input type="text" class="form-control form-control-lg" id="inputFirstName" placeholder="first name">
+                                <input type="text" class="form-control form-control-lg" id="inputSurName" placeholder="surname">
+                                </div>
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col">
-                                <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email">
+                                <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="email">
                             </div>
                         </div>
                         <div class="form-group row">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-lg" id="inputSubject" placeholder="subject">
+                                </div>
+                            </div>
+                        <div class="form-group row">
                             <div class="col">
-                                <textarea type="message" class="form-control form-control-lg" id="inputMsg" row="20" placeholder="Your Message"></textarea>
+                                <textarea type="message" class="form-control form-control-lg" id="inputMsg" rows="10" placeholder="your message"></textarea>
                             </div>
                         </div>
                         <div class="col">
@@ -475,7 +541,7 @@
                 <a class="text-light px-2" href="#"><i class="fab fa-twitter fa-2x"></i></a>
                 <a class="text-light px-2" href="#"><i class="fab fa-instagram fa-2x"></i></a>
                 <a class="text-light px-2" href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                <a class="text-light px-2" href="#"><i class="fas fa-blog fa-2x"></i></a>
+                <a class="text-light px-2" href="#"><i class="fas fa-newspaper fa-2x"></i></a>
             </div>
             <p class="text-center text-light m-0">&copy;TechEmployment 2020. All Rights Reserved.</p>
         </div>

@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, ::placeholder {
     z-index: 999;
 }
 
+.navbar-toggler-icon {
+    color: #fff;
+}
+
 .active {
     background-color: #ff0000;
     border-radius: 0!important;
@@ -136,7 +140,6 @@ h1, h2, h3, h4, h5, ::placeholder {
 }
 
 .card-title {
-    white-space: nowrap;
 }
 
 .col-md-4 {
@@ -144,11 +147,10 @@ h1, h2, h3, h4, h5, ::placeholder {
 }
 
 #countdown {
-    height: 70%;
 }
 
 #clockdiv{
-    color: #fff;
+    color: #ff0000;
     display: inline-block;
     font-weight: 100;
     text-align: center;
@@ -156,27 +158,35 @@ h1, h2, h3, h4, h5, ::placeholder {
     font-family: titling-gothic-fb-wide, sans-serif;
     font-weight: 700;
     font-style: normal;
+    width: 100%;
 }
 
 #clockdiv > div{
     display: block;
     float: left;
     margin: 0;
-    border: solid 2px #000;
+    border: solid 2px #fff;
+    width: 100%;
 }
 
 #clockdiv div > span{
-    padding: 5rem;
-    background: #ff0000;
+    padding: 100px;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='11.7' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: scroll;
     width: 100%;
     display: inline-block;
+    font-size: 56px;
+    /* position: absolute;
+    height: 0;
+    width: 0; */
 }
 
 .smalltext{
     padding-top: 5px;
     font-size: 24px;
-    background-color: #fff;
-    border-top: solid 2px #000;
+    background-color: #343a40;
+    border-top: solid 2px #fff;
 }
 
 #countdown-circle {
@@ -240,7 +250,9 @@ h1, h2, h3, h4, h5, ::placeholder {
 }
 
 #contact {
-    background-color: #000;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='11.7' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: scroll;
 }
 
 #contact h1 {
@@ -265,9 +277,13 @@ h1, h2, h3, h4, h5, ::placeholder {
 
 .form-control:focus {
     background-color: #fff;
-    color: #fff;
+    color: #121212;
     border: solid 2px #ff0000;
     box-shadow: 0 0 0 0.2rem rgba(255, 0, 0,.25);
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 .btn-submit {
@@ -287,6 +303,44 @@ h1, h2, h3, h4, h5, ::placeholder {
 
 #footer {
     background-color: #000000;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='11.7' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: scroll;
+}
+
+/* Portrait Phones */
+@media (max-width: 575.98px) {
+
+}
+
+/* Landscape Phones */
+@media (max-width: 767.98px) {
+
+}
+
+/* Tablets */
+@media (max-width: 991.98px) {
+    #about-sub {
+        font-size: 1.3rem;
+        text-align: center!important;
+    }
+
+    .about-us-cards-desktop {
+        display: none;
+        visibility: hidden;
+    }
+
+    .about-us-cards-mobile {
+        display: inline-block;
+    }
+
+    .card-title {
+        white-space: normal;
+    }
+
+
+    .contact-form {
+        width: 100%!important;
+    }
+}
+
+/* Desktops */
+@media (max-width: 1199.98px) {
 }
