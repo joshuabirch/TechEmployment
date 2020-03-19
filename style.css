@@ -160,9 +160,6 @@ h1, h2, h3, h4, h5, ::placeholder {
     padding: 0!important;
 }
 
-#countdown {
-}
-
 #clockdiv{
     color: #ff0000;
     display: inline-block;
@@ -339,6 +336,11 @@ h1, h2, h3, h4, h5, ::placeholder {
 
 /* Portrait Phones */
 @media (max-width: 575.98px) {
+    .btn-buy {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+    }
 
 }
 
