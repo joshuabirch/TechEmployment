@@ -344,6 +344,12 @@ h1, h2, h3, h4, h5, ::placeholder {
     background-color: #000000;
 }
 
+.footer-title {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 /* Portrait Phones */
 @media (max-width: 575.98px) {
     .btn-buy {
