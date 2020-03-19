@@ -153,7 +153,9 @@ h1, h2, h3, h4, h5, ::placeholder {
     border: 0;
 }
 
-.card-title {
+.about-us-cards-mobile {
+    visibility: hidden;
+    display: none;
 }
 
 .col-md-4 {
@@ -362,7 +364,8 @@ h1, h2, h3, h4, h5, ::placeholder {
     }
 
     .about-us-cards-mobile {
-        display: inline-block;
+        display: block;
+        visibility: visible;
     }
 
     .card-title {
