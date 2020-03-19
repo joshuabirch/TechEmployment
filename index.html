@@ -22,19 +22,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav px-3 py-3 mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">About Us</a>
+                        <a class="nav-link text-light" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Guests</a>
+                        <a class="nav-link text-light" href="#guests">Guests</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Tickets</a>
+                        <a class="nav-link text-light" href="#tickets">Tickets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contact</a>
+                        <a class="nav-link text-light" href="#contact">Contact</a>
                     </li>
                     </ul>
                 </div>
@@ -49,8 +49,8 @@
                             <h5 class="text-light">Municipal Hall</h5>
                             <div class="row">
                                 <div class="col-md-12 d-flex flex-row justify-content-center">
-                                    <button type="button" class="btn-lg d-block float-left btn-learn-more mt-3 p-4">learn more</button>
-                                    <button type="button" class="btn-lg d-block float-left btn-guests text-dark mt-3 p-4">2020 lineup</button>
+                                    <a type="button" href="#about" class="btn-lg d-block float-left btn-learn-more mt-3 p-4">learn more</a>
+                                    <a type="button" href="#guests" class="btn-lg d-block float-left btn-guests text-dark mt-3 p-4">2020 lineup</a>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
             </div>
             <div class="row about-us-cards-desktop">
                 <div class="col-md-12 p-0">
-                    <button class="btn btn-tickets py-4 px-2 d-block mx-auto w-100"><i class="fas fa-shopping-cart"></i> tickets available now</button>
+                    <a class="btn btn-tickets py-4 px-2 d-block mx-auto w-100" href="#tickets"><i class="fas fa-shopping-cart"></i> tickets available now</a>
                 </div>
             </div>
 
@@ -170,7 +170,7 @@
             </div>
             <div class="row d-none about-us-cards-mobile">
                 <div class="col-md-12">
-                    <button class="btn btn-tickets py-4 px-2 d-block mx-auto w-100">get tickets now!</button>
+                    <button href="#tickets" class="btn btn-tickets py-4 px-2 d-block mx-auto w-100">get tickets now!</button>
                 </div>
             </div>
 
@@ -331,7 +331,7 @@
                 </div>
                 <div class="row w-100">
                     <div class="col-md-12 p-0">
-                        <button class="btn btn-schedule py-4 px-2 d-block mx-auto w-100"><i class="fas fa-calendar-alt"></i></i> view the full schedule</button>
+                        <a href="#guests" class="btn btn-schedule py-4 px-2 d-block mx-auto w-100"><i class="fas fa-calendar-alt"></i></i> view the full schedule</a>
                     </div>
                 </div>
                 <div class="row w-100">
@@ -559,7 +559,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
     <script>
-
         function getTimeRemaining(endtime) {
             var t = Date.parse(endtime) - Date.parse(new Date());
             var seconds = Math.floor((t / 1000) % 60);
@@ -603,5 +602,16 @@
                 var deadline = '2020-07-25';
                 initializeClock('clockdiv', deadline);
     </script>
+
+    <!-- <script>
+        $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+            }, 1000);
+        });
+    </script> -->
+
 </body>
 </html>
