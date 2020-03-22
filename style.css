@@ -1,6 +1,12 @@
 html, body {
     height: 100%;
+    overflow: hidden;
 }
+
+#site-wrapper {
+    height: 100%;
+    overflow: auto;
+  }
 
 p, a, button, li {
     font-family: input-serif, serif;
@@ -14,17 +20,9 @@ h1, h2, h3, h4, h5, ::placeholder {
     font-style: normal;
 }
 
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    z-index: 999;
-}
 
-.navbar-toggler-icon {
-    color: #fff;
+.navbar-icon {
+    color: #fff!important;
 }
 
 .active {
@@ -91,15 +89,16 @@ h1, h2, h3, h4, h5, ::placeholder {
     border-radius: 0!important;
     color: #fff;
     border: solid 3px #000;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
     font-family: titling-gothic-fb-wide, sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 .btn-learn-more:hover {
-    background-color: #b90000;
+    background-color: #fba72d;
     color: #fff;
+    text-decoration: none;
 }
 
 .btn-guests {
@@ -115,6 +114,7 @@ h1, h2, h3, h4, h5, ::placeholder {
 .btn-guests:hover {
     background-color: #bbb;
     color: #000;
+    text-decoration: none;
 }
 
 #about {
@@ -139,10 +139,11 @@ h1, h2, h3, h4, h5, ::placeholder {
     border-left: solid 2px #fff;
     border-right: solid 2px #fff;
     border-bottom: solid 2px #fff;
+    transition: background-color .2s ease-in-out;
 }
 
 .btn-tickets:hover {
-    background-color: #b90000;
+    background-color: #fba72d;
     color: #fff;
 }
 
@@ -153,14 +154,12 @@ h1, h2, h3, h4, h5, ::placeholder {
     border: 0;
 }
 
-.card-title {
+.row-bottom-margin {
+    margin-bottom: 0!important;
 }
 
 .col-md-4 {
     padding: 0!important;
-}
-
-#countdown {
 }
 
 #clockdiv{
@@ -241,10 +240,11 @@ h1, h2, h3, h4, h5, ::placeholder {
     border-left: solid 2px #000;
     border-right: solid 2px #000;
     border-bottom: solid 2px #000;
+    transition: background-color .2s ease-in-out;
 }
 
 .btn-schedule:hover {
-    background-color: #b90000;
+    background-color: #fba72d;
     color: #fff;
 }
 
@@ -274,10 +274,11 @@ h1, h2, h3, h4, h5, ::placeholder {
     font-family: titling-gothic-fb-wide, sans-serif;
     font-weight: 700;
     font-style: normal;
+    transition: background-color .2s ease-in-out;
 }
 
 .btn-buy:hover {
-    background-color: #b90000;
+    background-color: #fba72d;
     color: #fff;
 }
 
@@ -326,10 +327,12 @@ h1, h2, h3, h4, h5, ::placeholder {
     font-weight: 700;
     font-style: normal;
     color: #fff;
+    font-size: 24px;
+    transition: background-color .2s ease-in-out;
 }
 
 .btn-submit:hover {
-    background-color: #b90000;
+    background-color: #fba72d;
     color: #fff;
 }
 
@@ -349,6 +352,19 @@ h1, h2, h3, h4, h5, ::placeholder {
 
 /* Tablets */
 @media (max-width: 991.98px) {
+    .navbar {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .navbar-toggler { 
+        background-color: #ff0000;
+        border-radius: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
     #about-sub {
         font-size: 1.3rem;
         text-align: center!important;

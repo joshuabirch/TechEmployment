@@ -14,542 +14,510 @@
   </head>
   <body>
 
-    <div id="splash">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav px-3 py-3 mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Guests</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Tickets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contact</a>
-                    </li>
-                    </ul>
+    <div id="site-wrapper">
+
+        <div id="splash">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav px-3 py-3 mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-light" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#guests">Guests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#tickets">Tickets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contact">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            <div id="masthead" class="d-flex">
+                <div class="container-fluid text-center my-auto">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="center-content">
+                                <img height="278" width="495" src="assets/logo.png" class="img-fluid pb-5">
+                                <h5 class="text-light">25th - 26th July 2020</h5>
+                                <h5 class="text-light">Municipal Hall</h5>
+                                <div class="row">
+                                    <div class="col-md-12 d-flex flex-row justify-content-center">
+                                        <a href="#about" class="btn-lg d-block float-left btn-learn-more text-light mt-3 p-4">learn more</a>
+                                        <a href="#guests" class="btn-lg d-block float-left btn-guests text-dark mt-3 p-4">2020 lineup</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-        <div id="masthead" class="d-flex">
-            <div class="container-fluid text-center my-auto">
+            </div>
+        </div>
+
+        <div id="about" class="py-5">
+            <div class="container">
                 <div class="row">
+                    <!-- <h1 class="text-center px-4">about us</h1> -->
                     <div class="col-md-12">
-                        <div class="center-content">
-                            <img height="278" width="495" src="assets/logo.png" class="img-fluid pb-5">
-                            <h5 class="text-light">25th - 26th July 2020</h5>
-                            <h5 class="text-light">Municipal Hall</h5>
-                            <div class="row">
-                                <div class="col-md-12 d-flex flex-row justify-content-center">
-                                    <button type="button" class="btn-lg d-block float-left btn-learn-more mt-3 p-4">learn more</button>
-                                    <button type="button" class="btn-lg d-block float-left btn-guests text-dark mt-3 p-4">2020 lineup</button>
-                                </div>
+                        <img height="219" width="949" src="assets/about-us-header.png" class="d-block mx-auto px-4 py-3 img-fluid">
+                        <p id="about-sub" class="text-justify py-4">We are Tech Employment! An employment conference dedicated to connecting graduating students to the industry! We specify in the technology sector with big names like Apple, Microsoft, Dell, Intel and more attending every year! This year we're open from the 25th - 26th July at the Municipal Hall so, for now, take a look at what's on offer;</p>
+                    </div>
+                </div>
+
+                <!--desktop-->
+                <div class="row about-us-cards-desktop">
+                    <div class="col-md-4">
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-left:solid 2px #fff;border-top:solid 2px #fff;" class="card-body p-4">
+                                <h5 class="card-title">employment stalls</h5>
+                                <p>meet companies and their recruitment teams</p>
+                            </div>
+                        </div>
+                        <div class="card w-100 shadow text-center">
+                            <div class="card-body p-4 bg-light">
+                                <h5 style="color:#343a40;" class="card-title">placement interviews</h5>
+                                <p style="color:#343a40;">attend real placement interviews</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card w-100 shadow text-center">
+                            <div class="card-body p-4 bg-light">
+                                <h5 style="color:#343a40;" class="card-title">speakers</h5>
+                                <p style="color:#343a40;">regular talks from top CEO's on employability</p>
+                            </div>
+                        </div>
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-bottom:solid 2px #fff;" class="card-body p-4">
+                                <h5 class="card-title">cv writing workshops</h5>
+                                <p>create or improve your own cv</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-right:solid 2px #fff;border-top:solid 2px #fff;" class="card-body p-4">
+                                <h5 class="card-title">full catering</h5>
+                                <p>full indoor catering available</p>
+                            </div>
+                        </div>
+                        <div class="card w-100 text-center">
+                            <div class="card-body p-4 bg-light">
+                                <h5 style="color:#343a40;" class="card-title">mock interviews</h5>
+                                <p style="color:#343a40;">take part in fake interviews to gain feedback</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <!-- <h1 class="text-center px-4">about us</h1> -->
-                <div class="col-md-12">
-                    <img height="219" width="949" src="assets/about-us-header.png" class="d-block mx-auto px-4 py-3 img-fluid">
-                    <p id="about-sub" class="text-justify py-4">We are Tech Employment! An employment conference dedicated to connecting graduating students to the industry! We specify in the technology sector with big names like Apple, Microsoft, Dell, Intel and more attending every year! This year we're open from the 25th - 26th July at the Municipal Hall so, for now, take a look at what's on offer;</p>
-                </div>
-            </div>
-
-            <!--desktop-->
-            <div class="row about-us-cards-desktop">
-                <div class="col-md-4">
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-left:solid 2px #fff;border-top:solid 2px #fff;" class="card-body p-4">
-                            <h5 class="card-title">employment stalls</h5>
-                            <p>meet companies and their recruitment teams</p>
-                        </div>
-                    </div>
-                    <div class="card w-100 shadow text-center">
-                        <div class="card-body p-4 bg-light">
-                            <h5 style="color:#343a40;" class="card-title">placement interviews</h5>
-                            <p style="color:#343a40;">attend real placement interviews</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card w-100 shadow text-center">
-                        <div class="card-body p-4 bg-light">
-                            <h5 style="color:#343a40;" class="card-title">speakers</h5>
-                            <p style="color:#343a40;">regular talks from top CEO's on employability</p>
-                        </div>
-                    </div>
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-bottom:solid 2px #fff;" class="card-body p-4">
-                            <h5 class="card-title">cv writing workshops</h5>
-                            <p>create or improve your own cv</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-right:solid 2px #fff;border-top:solid 2px #fff;" class="card-body p-4">
-                            <h5 class="card-title">full catering</h5>
-                            <p>full indoor catering available</p>
-                        </div>
-                    </div>
-                    <div class="card w-100 text-center">
-                        <div class="card-body p-4 bg-light">
-                            <h5 style="color:#343a40;" class="card-title">mock interviews</h5>
-                            <p style="color:#343a40;">take part in fake interviews to gain feedback</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row about-us-cards-desktop">
-                <div class="col-md-12 p-0">
-                    <button class="btn btn-tickets py-4 px-2 d-block mx-auto w-100"><i class="fas fa-shopping-cart"></i> tickets available now</button>
-                </div>
-            </div>
-
-            <!--tablet & mobile-->
-            <div class="row d-none about-us-cards-mobile">
-                <div class="col">
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-left:solid 1px #fff;border-top:solid 2px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
-                            <h5 class="card-title">employment stalls</h5>
-                            <p>meet companies and their recruitment teams</p>
-                        </div>
-                    </div>
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
-                            <h5 class="card-title text-dark">placement interviews</h5>
-                            <p style="color:#343a40;">attend real placement interviews</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
-                            <h5 class="card-title">speakers</h5>
-                            <p style="color:#343a40;">regular talks from top CEO's on employability</p>
-                        </div>
-                    </div>
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
-                            <h5 class="card-title text-dark">cv writing workshops</h5>
-                            <p>create or improve your own cv</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
-                            <h5 class="card-title">full catering</h5>
-                            <p>full indoor catering available</p>
-                        </div>
-                    </div>
-                    <div class="card w-100 shadow text-center">
-                        <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
-                            <h5 class="card-title text-dark">mock interviews</h5>
-                            <p style="color:#343a40;">take part in fake interviews to gain feedback</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-none about-us-cards-mobile">
-                <div class="col-md-12">
-                    <button class="btn btn-tickets py-4 px-2 d-block mx-auto w-100">get tickets now!</button>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12 p-0 d-flex flex-row justify-content-center">
-                    <div class="row" id="clockdiv">
-                        <div class="col-md-4">
-                            <span class="days"></span>
-                            <div class="smalltext text-light">days</div>
-                        </div>
-                        <div class="col-md-4">
-                            <span class="hours"></span>
-                            <div class="smalltext text-light">hours</div>
-                        </div>
-                        <div class="col-md-4">
-                            <span class="minutes"></span>
-                            <div class="smalltext text-light">minutes</div>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="guests" class="py-5">
-        <div class="container py-3">
-            <div class="row pb-5">
-                <div class="col-md-12">
-                    <!-- <h1 class="text-center px-4">guests</h1> -->
-                    <img height="192" width="760" src="assets/guests-header.png" class="img-fluid d-block mx-auto px-4 py-2">
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-md-6">
-                    <div class="card" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                            <div class="col-4">
-                                <div style="background-color:#000;" class="row h-100">
-                                    <div class="col align-self-center">
-                                        <div class="text-light card-icon">
-                                            <i class="d-block mx-auto fab fa-microsoft fa-4x"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-8" style="border-top:solid 2px #000;border-bottom:solid 2px #000;">
-                                <div class="card-body bg-white">
-                                    <h3 class="card-title text-dark">Microsoft</h3>
-                                    <p class="text-dark">Satya Nadella</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                            <div class="col-4">
-                                <div style="background-color:#000;" class="row h-100">
-                                    <div class="col align-self-center">
-                                        <div class="text-light card-icon">
-                                            <i class="d-block mx-auto fab fa-apple fa-4x"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-8" style="border-bottom:solid 2px #000;">
-                                <div class="card-body bg-white">
-                                    <h3 class="card-title text-dark">Apple</h3>
-                                    <p class="text-dark">Tim Cook</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                            <div class="col-4">
-                                <div style="background-color:#000;" class="row h-100">
-                                    <div class="col align-self-center">
-                                        <div class="text-light card-icon">
-                                            <i class="d-block mx-auto fab fa-google fa-4x"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-8" style="border-bottom:solid 2px #000;">
-                                <div class="card-body bg-white">
-                                    <h3 class="card-title text-dark">Google</h3>
-                                    <p class="text-dark">Sundar Pichai</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-6">
-
-                    <div class="card" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                            <div class="col-4">
-                                <div style="background-color:#000;" class="row h-100">
-                                    <div class="col align-self-center">
-                                        <div class="text-light card-icon">
-                                            <i class="d-block mx-auto fab fa-amazon fa-4x"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-8" style="border-top:solid 2px #000;border-bottom:solid 2px #000;border-right:solid 2px #000;">
-                                <div class="card-body bg-white">
-                                    <h3 class="card-title text-dark">Amazon</h3>
-                                    <p class="text-dark">Jeff Bezos</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                            <div class="col-4">
-                                <div style="background-color:#000;" class="row h-100">
-                                    <div class="col align-self-center">
-                                        <div class="text-light card-icon">
-                                            <i class="d-block mx-auto fab fa-ebay fa-4x"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-8" style="border-bottom:solid 2px #000;border-right:solid 2px #000;">
-                                <div class="card-body bg-white">
-                                    <h3 class="card-title text-dark">Ebay</h3>
-                                    <p class="text-dark">Scott Schenkel</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                            <div class="col-4">
-                                <div style="background-color:#000;" class="row h-100">
-                                    <div class="col align-self-center">
-                                        <div class="text-light card-icon">
-                                            <i class="d-block mx-auto fab fa-playstation fa-4x"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-8" style="border-bottom:solid 2px #000;border-right:solid 2px #000;">
-                                <div class="card-body bg-white">
-                                    <h3 class="card-title text-dark">Sony</h3>
-                                    <p class="text-dark">Kenichiro Yoshida</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row w-100">
+                <div class="row about-us-cards-desktop">
                     <div class="col-md-12 p-0">
-                        <button class="btn btn-schedule py-4 px-2 d-block mx-auto w-100"><i class="fas fa-calendar-alt"></i></i> view the full schedule</button>
+                        <a href="#tickets" class="btn btn-tickets text-light py-4 px-2 d-block mx-auto w-100"><i class="fas fa-shopping-cart"></i> tickets available now</a>
                     </div>
                 </div>
-                <div class="row w-100">
+
+                <!--tablet & mobile-->
+                <div class="row d-none about-us-cards-mobile">
+                    <div class="col">
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-left:solid 1px #fff;border-top:solid 2px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
+                                <h5 class="card-title">employment stalls</h5>
+                                <p>meet companies and their recruitment teams</p>
+                            </div>
+                        </div>
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
+                                <h5 class="card-title text-dark">placement interviews</h5>
+                                <p style="color:#343a40;">attend real placement interviews</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
+                                <h5 class="card-title">speakers</h5>
+                                <p style="color:#343a40;">regular talks from top CEO's on employability</p>
+                            </div>
+                        </div>
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
+                                <h5 class="card-title text-dark">cv writing workshops</h5>
+                                <p>create or improve your own cv</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body">
+                                <h5 class="card-title">full catering</h5>
+                                <p>full indoor catering available</p>
+                            </div>
+                        </div>
+                        <div class="card w-100 shadow text-center">
+                            <div style="border-left:solid 1px #fff;border-bottom:solid 2px #fff;border-right:solid 2px #fff;" class="card-body bg-light">
+                                <h5 class="card-title text-dark">mock interviews</h5>
+                                <p style="color:#343a40;">take part in fake interviews to gain feedback</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-none about-us-cards-mobile">
+                    <div class="col-md-12">
+                        <button class="btn btn-tickets py-4 px-2 d-block mx-auto w-100">get tickets now!</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 p-0 d-flex flex-row justify-content-center">
+                        <div class="row" id="clockdiv">
+                            <div class="col-md-4">
+                                <span class="days"></span>
+                                <div class="smalltext text-light">days</div>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="hours"></span>
+                                <div class="smalltext text-light">hours</div>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="minutes"></span>
+                                <div class="smalltext text-light">minutes</div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="guests" class="py-5">
+            <div class="container py-3">
+                <div class="row pb-5">
+                    <div class="col-md-12">
+                        <!-- <h1 class="text-center px-4">guests</h1> -->
+                        <img height="192" width="760" src="assets/guests-header.png" class="img-fluid d-block mx-auto px-4 py-2">
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-md-6 border-thick">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <div class="card-body bg-white">
+                                        <h5 class="card-title text-dark"><i class="fab fa-microsoft"></i> Microsoft</h5>
+                                        <p class="text-dark">Satya Nadella</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border-thick">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <div class="card-body bg-white">
+                                        <h5 class="card-title text-dark"><i class="fab fa-apple"></i> Apple</h5>
+                                        <p class="text-dark">Tim Cook</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-md-6 border-thick">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <div class="card-body bg-white">
+                                        <h5 class="card-title text-dark"><i class="fab fa-google"></i> Google</h5>
+                                        <p class="text-dark">Sundar Pichai</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border-thick">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <div class="card-body bg-white">
+                                        <h5 class="card-title text-dark"><i class="fab fa-amazon"></i> Amazon</h5>
+                                        <p class="text-dark">Jeff Bezos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-md-6 border-thick">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <div class="card-body bg-white">
+                                        <h5 class="card-title text-dark"><i class="fab fa-ebay"></i> Ebay</h5>
+                                        <p class="text-dark">Scott Schenkel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border-thick">
+                        <div class="card">
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <div class="card-body bg-white">
+                                        <h5 class="card-title text-dark"><i class="fab fa-playstation"></i> Sony</h5>
+                                        <p class="text-dark">Kenichiro Yoshida</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <a href="assets/schedule.jpg" class="btn btn-schedule text-light py-4 px-2 d-block mx-auto w-100"><i class="fas fa-calendar-alt"></i></i> view the full schedule</a>
+                    </div>
                     <div style="border-left:solid 2px #000;border-right:solid 2px #000;border-bottom:solid 2px #000;" class="col-md-12 bg-dark">
                         <h4 class="text-light py-3 text-center">and plenty more! over 60 companies will be attending the event helping you and your future!</h4>
                     </div>
                 </div>
+                <!-- <div class="row">
+                    <div class="col-md-12 p-0">
+                        <button class="btn btn-schedule py-4 px-2 d-block mx-auto w-100"><i class="fas fa-calendar-alt"></i></i> view the full schedule</button>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div style="border-left:solid 2px #000;border-right:solid 2px #000;border-bottom:solid 2px #000;" class="col-md-12 bg-dark">
+                        <h4 class="text-light py-3 text-center">and plenty more! over 60 companies will be attending the event helping you and your future!</h4>
+                    </div>
+                </div> -->
             </div>
         </div>
-    </div>
 
-    <div id="tickets" class="bg-dark py-5">
-        <div class="container py-3">
-            <div class="row pb-5">
-                <div class="col-md-12">
-                    <img height="244" width="800" src="assets/tickets-header.png" class="img-fluid px-4 py-2 d-block mx-auto">
+        <div id="tickets" class="bg-dark py-5">
+            <div class="container py-3">
+                <div class="row pb-5">
+                    <div class="col-md-12">
+                        <img height="244" width="800" src="assets/tickets-header.png" class="img-fluid px-4 py-2 d-block mx-auto">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 border-thick">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5>day entry</h5>
-                        </div>
-                        <div class="card-body bg-light">
-                            <div class="mt-auto">
-                                <h1 class="card-title text-center text-dark">£60.00</h1>
-                                <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
-                                    <li class="py-1"><i class="fas fa-check"></i> day access to the event</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> discounted price</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> meet and greet with the speakers</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> priority at queues across the venue</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive access to the super pass area</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> 20% discount on all merchandise</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive techEmployment lanyard with your day pass</li>
-                                </ul>
+                <div class="row">
+                    <div class="col-md-4 border-thick">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>day entry</h5>
                             </div>
-                            <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            <div class="card-body bg-light">
+                                <div class="mt-auto">
+                                    <h1 class="card-title text-center text-dark">£60.00</h1>
+                                    <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
+                                        <li class="py-1"><i class="fas fa-check"></i> day access to the event</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> discounted price</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> meet and greet with the speakers</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> priority at queues across the venue</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive access to the super pass area</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> 20% discount on all merchandise</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive techEmployment lanyard with your day pass</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 border-thick">
+                        <div class="card">
+                            <div class="card-header vertical-align">
+                                <h5 class="d-inline-block">day early bird</h5>
+                            </div>
+                                
+                            <div class="card-body d-flex flex-column bg-light">
+                                <div class="mt-auto">
+                                    <h1 class="card-title text-center text-dark">£50.00</h1>
+                                    <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
+                                        <li class="py-1"><i class="fas fa-check"></i> day access to the event</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> discounted price</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> meet and greet with the speakers</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> priority at queues across the venue</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive access to the super pass area</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> 20% discount on all merchandise</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive techEmployment lanyard with your day pass</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 border-thick">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>day super pass</h5>
+                            </div>
+                            <div class="card-body d-flex flex-column bg-light">
+                                <div class="mt-auto">
+                                    <h1 class="card-title text-center text-dark">£100.00</h1>
+                                    <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
+                                        <li class="py-1"><i class="fas fa-check"></i> day access to the event</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> discounted price</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> meet and greet with the speakers</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> priority at queues across the venue</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> exclusive access to the super pass area</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> 20% discount on all merchandise</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> exclusive techEmployment lanyard with your day pass</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 border-thick">
-                    <div class="card">
-                        <div class="card-header vertical-align">
-                            <h5 class="d-inline-block">day early bird</h5>
-                        </div>
-                            
-                        <div class="card-body d-flex flex-column bg-light">
-                            <div class="mt-auto">
-                                <h1 class="card-title text-center text-dark">£50.00</h1>
-                                <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
-                                    <li class="py-1"><i class="fas fa-check"></i> day access to the event</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> discounted price</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> meet and greet with the speakers</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> priority at queues across the venue</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive access to the super pass area</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> 20% discount on all merchandise</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive techEmployment lanyard with your day pass</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 border-thick">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5>day super pass</h5>
-                        </div>
-                        <div class="card-body d-flex flex-column bg-light">
-                            <div class="mt-auto">
-                                <h1 class="card-title text-center text-dark">£100.00</h1>
-                                <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
-                                    <li class="py-1"><i class="fas fa-check"></i> day access to the event</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> discounted price</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> meet and greet with the speakers</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> priority at queues across the venue</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> exclusive access to the super pass area</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> 20% discount on all merchandise</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> exclusive techEmployment lanyard with your day pass</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-4 border-thick">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5>weekend entry</h5>
-                        </div>
-                        <div class="card-body bg-light">
-                            <div class="mt-auto">
-                                <h1 class="card-title text-center text-dark">£100.00</h1>
-                                <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
-                                    <li class="py-1"><i class="fas fa-check"></i> weekend access to the event</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> discounted price</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> meet and greet with the speakers</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> priority at queues across the venue</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive access to the super pass area</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> 20% discount on all merchandise</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive techEmployment lanyard with your day pass</li>
-                                </ul>
+                <div class="row">
+                    <div class="col-md-4 border-thick">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>weekend entry</h5>
                             </div>
-                            <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            <div class="card-body bg-light">
+                                <div class="mt-auto">
+                                    <h1 class="card-title text-center text-dark">£100.00</h1>
+                                    <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
+                                        <li class="py-1"><i class="fas fa-check"></i> weekend access to the event</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> discounted price</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> meet and greet with the speakers</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> priority at queues across the venue</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive access to the super pass area</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> 20% discount on all merchandise</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive techEmployment lanyard with your day pass</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 border-thick">
-                    <div class="card">
-                        <div class="card-header vertical-align">
-                            <h5 class="d-inline-block">weekend early bird</h5>
-                        </div>
-                            
-                        <div class="card-body d-flex flex-column bg-light">
-                            <div class="mt-auto">
-                                <h1 class="card-title text-center text-dark">£80.00</h1>
-                                <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
-                                    <li class="py-1"><i class="fas fa-check"></i> weekend access to the event</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> discounted price</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> meet and greet with the speakers</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> priority at queues across the venue</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive access to the super pass area</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> 20% discount on all merchandise</li>
-                                    <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive techEmployment lanyard with your day pass</li>
-                                </ul>
+                    <div class="col-md-4 border-thick">
+                        <div class="card">
+                            <div class="card-header vertical-align">
+                                <h5 class="d-inline-block">weekend early bird</h5>
                             </div>
-                            <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                                
+                            <div class="card-body d-flex flex-column bg-light">
+                                <div class="mt-auto">
+                                    <h1 class="card-title text-center text-dark">£80.00</h1>
+                                    <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
+                                        <li class="py-1"><i class="fas fa-check"></i> weekend access to the event</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> discounted price</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> meet and greet with the speakers</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> priority at queues across the venue</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive access to the super pass area</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> 20% discount on all merchandise</li>
+                                        <li class="py-1 text-muted"><i class="fas fa-times"></i> exclusive techEmployment lanyard with your day pass</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 border-thick">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5>weekend super pass</h5>
-                        </div>
-                        <div class="card-body d-flex flex-column bg-light">
-                            <div class="mt-auto">
-                                <h1 class="card-title text-center text-dark">£160.00</h1>
-                                <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
-                                    <li class="py-1"><i class="fas fa-check"></i> weekend access to the event</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> discounted price</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> meet and greet with the speakers</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> priority at queues across the venue</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> exclusive access to the super pass area</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> 20% discount on all merchandise</li>
-                                    <li class="py-1"><i class="fas fa-check"></i> exclusive techEmployment lanyard with your day pass</li>
-                                </ul>
+                    <div class="col-md-4 border-thick">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>weekend super pass</h5>
                             </div>
-                            <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            <div class="card-body d-flex flex-column bg-light">
+                                <div class="mt-auto">
+                                    <h1 class="card-title text-center text-dark">£160.00</h1>
+                                    <ul class="list-unstyled text-wrap mt-auto text-dark mt-3 mb-4">
+                                        <li class="py-1"><i class="fas fa-check"></i> weekend access to the event</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> discounted price</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> meet and greet with the speakers</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> priority at queues across the venue</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> exclusive access to the super pass area</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> 20% discount on all merchandise</li>
+                                        <li class="py-1"><i class="fas fa-check"></i> exclusive techEmployment lanyard with your day pass</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn mt-auto btn-buy w-100">buy</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div id="contact" class="py-5">
-        <div class="container py-3">
-            <div class="row pb-5">
-                <div class="col-md-12">
-                    <!-- <h1 class="text-center px-4">contact</h1> -->
-                    <img height="189" width="879" src="assets/contact-header.png" class="img-fluid d-block mx-auto px-4 py-2">
+        <div id="contact" class="py-5">
+            <div class="container py-3">
+                <div class="row pb-5">
+                    <div class="col-md-12">
+                        <!-- <h1 class="text-center px-4">contact</h1> -->
+                        <img height="189" width="879" src="assets/contact-header.png" class="img-fluid d-block mx-auto px-4 py-2">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <form class="contact-form w-100 mx-auto">
-                        <div class="form-group row">
-                            <div class="col">
-                                <div class="input-group">
-                                <input type="text" class="form-control form-control-lg" id="inputFirstName" placeholder="first name">
-                                <input type="text" class="form-control form-control-lg" id="inputSurName" placeholder="surname">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col">
-                                <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="email">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                                <div class="col">
-                                    <input type="text" class="form-control form-control-lg" id="inputSubject" placeholder="subject">
-                                </div>
-                            </div>
-                        <div class="form-group row">
-                            <div class="col">
-                                <textarea type="message" class="form-control form-control-lg" id="inputMsg" rows="10" placeholder="your message"></textarea>
-                            </div>
-                        </div>
-                        <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <form class="contact-form w-100 mx-auto">
                             <div class="form-group row">
-                                <button type="submit" class="btn btn-submit py-4 w-100">send</button>
+                                <div class="col">
+                                    <div class="input-group">
+                                    <input type="text" class="form-control form-control-lg" id="inputFirstName" placeholder="first name">
+                                    <input type="text" class="form-control form-control-lg" id="inputSurName" placeholder="surname">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-lg" id="inputSubject" placeholder="subject">
+                                    </div>
+                                </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <textarea type="message" class="form-control form-control-lg" id="inputMsg" rows="10" placeholder="your message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group row">
+                                    <button type="submit" class="btn btn-submit py-4 w-100">send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div id="footer" class="py-3">
-        <div class="container text-center">
-            <div class="row">
-                <img height="81" width="144" src="assets/logo.png" class="img-fluid d-block mx-auto py-2">
+        <div id="footer" class="py-3">
+            <div class="container text-center">
+                <div class="row">
+                    <img height="81" width="144" src="assets/logo.png" class="img-fluid d-block mx-auto py-2">
+                </div>
+                <div class="row my-2 d-block mx-auto">
+                    <a class="text-light px-2" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a class="text-light px-2" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a class="text-light px-2" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a class="text-light px-2" href="#"><i class="fas fa-newspaper fa-2x"></i></a>
+                </div>
+                <p class="text-center text-light m-0">&copy;TechEmployment 2020. All Rights Reserved.</p>
             </div>
-            <div class="row my-2 d-block mx-auto">
-                <a class="text-light px-2" href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                <a class="text-light px-2" href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                <a class="text-light px-2" href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                <a class="text-light px-2" href="#"><i class="fas fa-newspaper fa-2x"></i></a>
-            </div>
-            <p class="text-center text-light m-0">&copy;TechEmployment 2020. All Rights Reserved.</p>
         </div>
+
     </div>
 
     <!-- Optional JavaScript -->
@@ -558,6 +526,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+    <script src="smooth-scroll.min.js"></script>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 300
+        });
+    </script>
+
     <script>
 
         function getTimeRemaining(endtime) {
@@ -574,34 +550,37 @@
                 'seconds': seconds
             };
 
+        }
+
+        function initializeClock(id, endtime) {
+            var clock = document.getElementById(id);
+            var daysSpan = clock.querySelector('.days');
+            var hoursSpan = clock.querySelector('.hours');
+            var minutesSpan = clock.querySelector('.minutes');
+            var secondsSpan = clock.querySelector('.seconds');
+
+            function updateClock() {
+                var t = getTimeRemaining(endtime);
+
+                daysSpan.innerHTML = t.days;
+                hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+                if (t.total <= 0) {
+                    clearInterval(timeinterval);
+                }
             }
 
-            function initializeClock(id, endtime) {
-                var clock = document.getElementById(id);
-                var daysSpan = clock.querySelector('.days');
-                var hoursSpan = clock.querySelector('.hours');
-                var minutesSpan = clock.querySelector('.minutes');
-                var secondsSpan = clock.querySelector('.seconds');
+            updateClock();
+                var timeinterval = setInterval(updateClock, 1000);
+        }
 
-                function updateClock() {
-                    var t = getTimeRemaining(endtime);
+        var deadline = '2020-07-25';
+        initializeClock('clockdiv', deadline);
 
-                    daysSpan.innerHTML = t.days;
-                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-                    if (t.total <= 0) {
-                        clearInterval(timeinterval);
-                    }
-                }
-
-                updateClock();
-                    var timeinterval = setInterval(updateClock, 1000);
-                }
-
-                var deadline = '2020-07-25';
-                initializeClock('clockdiv', deadline);
     </script>
+
+    
 </body>
 </html>
