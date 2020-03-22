@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, ::placeholder {
     font-family: titling-gothic-fb-wide, sans-serif;
     font-weight: 700;
     font-style: normal;
+    text-decoration: none!important;
 }
 
 .btn-learn-more:hover {
@@ -109,6 +110,7 @@ h1, h2, h3, h4, h5, ::placeholder {
     font-family: titling-gothic-fb-wide, sans-serif;
     font-weight: 700;
     font-style: normal;
+    text-decoration: none!important;
 }
 
 .btn-guests:hover {
@@ -229,6 +231,11 @@ h1, h2, h3, h4, h5, ::placeholder {
     height: 100%;
 }
 
+#gutters-toggle {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .btn-schedule {
     background-color: #ff0000;
     border-radius: 0;
@@ -340,8 +347,19 @@ h1, h2, h3, h4, h5, ::placeholder {
     background-color: #000000;
 }
 
+.footer-title {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 /* Portrait Phones */
 @media (max-width: 575.98px) {
+    .btn-buy {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+    }
 
 }
 
@@ -376,12 +394,19 @@ h1, h2, h3, h4, h5, ::placeholder {
     }
 
     .about-us-cards-mobile {
-        display: inline-block;
+        display: block;
+        visibility: visible;
+    }
+
+    #countdown {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
     }
 
     .card-title {
         white-space: normal;
     }
+
 
 
     .contact-form {
